@@ -1,0 +1,21 @@
+/*! Place your custom styles here */
+h5 {
+    margin-bottom: 0.5em !important;
+}
+.sidebar {
+    margin-top: 0em !important;
+    bottom: 0px !important;
+}
+.bar .logo {
+    max-height: 3em;
+    max-width: none;
+}
+.extramargin1 {
+    margin-top: 8px;
+}
+.extramargin2 {
+    margin-top: 3px !important;
+}
+footer.footer-3 .social-list {
+    top: 0px;
+}
