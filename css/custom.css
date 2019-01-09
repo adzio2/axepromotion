@@ -23,3 +23,8 @@ footer.footer-3 .social-list {
     background-image: url("../img/bgnoise_lg.png");
     background-repeat: repeat, repeat;
   }*/
+
+  h1, .h1 {
+    font-size: 2.14285714em;
+
+}
