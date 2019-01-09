@@ -3430,7 +3430,8 @@ section.unpad--top {
 /**! 38. Boxed Layout **/
 @media all and (min-width: 1280px) {
   body.boxed-layout {
-    padding: 3.71428571em 0;
+    padding: 3.71428571em;
+    padding-top: 0;
     background: #ededed;
     background-image: url("../img/bgnoise_lg.png");
     background-repeat: repeat, repeat;
