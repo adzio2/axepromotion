@@ -114,13 +114,41 @@
                         <p class="lead"> tel. kom.: +48 509 790 195 </p>
                     </div>
                     <div class="col-md-6 col-12">
-                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                        <script>
-                          hbspt.forms.create({
-                            portalId: "5169708",
-                            formId: "5d0e9fbb-562c-4a47-9833-26992a554fd1"
-                        });
-                        </script>
+                        <form class="text-left -form-email row mx-0 attempted-submit" name="Formularz AXE Promotion"
+                            netlify-honeypot="bot-field" netlify data-netlify="true" method="POST" action="/dziekujemy.html"
+                            data-netlify-recaptcha="true">
+                            <div style="display: none;"><label>Don’t fill this out if you're human:</label> <input name="bot-field" /></div>
+                            <div class="col-md-12 col-12">
+                                <label>Imię i nazwisko</label>
+                                <input type="text" name="Imię i nazwisko" required> </div>
+                            <div class="col-md-6 col-12">
+                                <label>Adres email</label>
+                                <input type="email" name="Email" required>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label>Numer telefonu</label>
+                                <input type="text" name="Numer telefonu"> </div>
+                            <div class="col-md-12 col-12">
+                                <label>Branża</label>
+                                <select name="Branża">
+                                    <option value="---">---</option>
+                                    <option value="branza1">branza1</option>
+                                    <option value="branza2">branza2</option>
+                                    <option value="inne">inne</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <label>Wiadomość</label>
+                                <textarea rows="4" name="Wiadomość"></textarea> </div>
+                            <div class="col-md-12 col-12"> <label>Plik:</label> <input type="file" name="Plik">
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="g-recaptcha" data-sitekey="6Le644UUAAAAANLZ8c7nlIg8UR22ayr2v2id3Hqg"></div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 col-6">
+                                <button type="submit" class="btn btn--primary type--uppercase">Wyślij</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
